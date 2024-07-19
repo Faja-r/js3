@@ -1,18 +1,47 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    margin: 0%;
-    padding: 0%;
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-.quote-box{
-background-color: rgb(189, 148, 227);
-text-align: center;
-border: 1px solid black;
-border-radius: 2%;
-margin-right: 30%;
-margin-left: 30%;
-padding: 5%;
-margin-top: 5%;
-filter: drop-shadow(1px 1px 20px purple);
+
+.quote-box {
+    background-color: #f385ab;
+    text-align: center;
+    margin: 5% auto;
+    padding: 5%;
+    border-radius: 50px;
+    max-width: 60%; 
+    box-shadow: 1px 1px 20px #f385ab; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+button {
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px 20px; 
+    color: white;
+    border: none; 
+    border-radius: 50px;
+    background-color: #f385ab;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#author {
+    color: white;
+    margin-top: 10px; 
+    margin-left: 50%;
+    font-style: italic; /* Italicize the author name */
 }
